@@ -1,0 +1,14 @@
+<div *ngFor="let location of locations">
+    <h3>{{ location.locationName }}</h3>
+    <ul>
+        <li *ngFor="let camera of location.cameras">
+            <button (click)="viewStream(camera.id)">{{ camera.name }}</button>
+        </li>
+    </ul>
+</div>
+
+<div id="videoWrapper"></div>
+
+{{currentStreamUrl}}
+ 
+<canvas #streaming id="cameraStream"  width="1920" height="1080" style="display: block; width: 100%;"></canvas>  

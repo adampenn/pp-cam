@@ -1,0 +1,15 @@
+{
+    "locations": [
+      {
+        "locationName": "Example Location",
+        "cameras": [
+          {
+            "id": "exampleCamera1",
+            "name": "Example Camera 1",
+            "rtspUrl": "rtsp://your-example-camera-rtsp-url"
+          }
+        ]
+      }
+    ]
+  }
+  

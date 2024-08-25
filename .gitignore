@@ -1,0 +1,61 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+.pnpm-debug.log*
+
+# Build output
+dist/
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+logs/*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Visual Studio Code
+.vscode/
+
+# Angular build and environment files
+.angular/
+*.js.map
+*.d.ts
+
+# Camera configuration
+pp-cam-api/cameraConfig.json
+
+# Ignore compiled JavaScript files (if using TypeScript)
+*.js
+*.js.map
+
+# Ignore IDE specific files
+.idea/
+*.iml
+
+# Ignore compiled Python files (if using Python for some scripts)
+*.pyc
+__pycache__/
+
+# Other backups and OS-specific files
+*.bak
+*~
